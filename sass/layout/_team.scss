@@ -1,0 +1,213 @@
+<<<<<<< HEAD
+.team {
+  background-color: #f5f4fa;
+}
+.team__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 65px;
+
+  text-align: center;
+  color: var(--title-text-color);
+  @media screen and(min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+.team__item {
+  max-width: 450px;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+  margin-top: 30px;
+
+  @media screen and(min-width: 768px) {
+    flex-basis: calc(100% / 2 - 60px);
+    margin: 15px;
+  }
+  @media screen and(min-width: 1200px) {
+    flex-basis: calc(100% / 4 - 30px);
+  }
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin: -30px;
+}
+.team__name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+.team__profession {
+  margin-top: 10px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team__personal {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+.social-list {
+  margin-top: 16px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.social-list__item {
+  text-decoration: none;
+
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-list__icons {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  fill: #afb1b8;
+  border: 50%;
+}
+.social-list__link {
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &:hover .social-list__icons,
+  &:focus .social-list__icons {
+    fill: #ffffff;
+  }
+}
+=======
+.team {
+  background-color: #f5f4fa;
+}
+.team__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 65px;
+
+  text-align: center;
+  color: var(--title-text-color);
+  @media screen and(min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+.team__item {
+  max-width: 450px;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+  margin-top: 30px;
+
+  @media screen and(min-width: 768px) {
+    flex-basis: calc(100% / 2 - 60px);
+    margin: 15px;
+  }
+  @media screen and(min-width: 1200px) {
+    flex-basis: calc(100% / 4 - 30px);
+  }
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin: -30px;
+}
+.team__name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+.team__profession {
+  margin-top: 10px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team__personal {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+.social-list {
+  margin-top: 16px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.social-list__item {
+  text-decoration: none;
+
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-list__icons {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  fill: #afb1b8;
+  border: 50%;
+}
+.social-list__link {
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &:hover .social-list__icons,
+  &:focus .social-list__icons {
+    fill: #ffffff;
+  }
+}
+>>>>>>> 0fad82e623fd0adc2a04ab029724999e325bf571

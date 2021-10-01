@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+.header-link {
+  display: block;
+  padding-top: 10px;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+  @media screen and(min-width: 1200px) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+.link {
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+=======
+.header-link {
+  display: block;
+  padding-top: 10px;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+  @media screen and(min-width: 1200px) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+.link {
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+>>>>>>> 0fad82e623fd0adc2a04ab029724999e325bf571
